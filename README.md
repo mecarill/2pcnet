@@ -6,7 +6,7 @@ This repo is the official implementation of our paper: <br>
 **2PCNet: Two-Phase Consistency Training for Day-to-Night Unsupervised Domain Adaptive Object Detection**<br>
 *Mikhail Kennerley, Jian-Gang Wang, Bharadwaj Veeravalli, Robby T. Tan* <br>
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <br>
-[[Paper](https://github.com/mecarill/2pcnet)] (To be provided)
+[[Paper](https://arxiv.org/abs/2303.13853)]
 
 
 <p align="center">
