@@ -25,7 +25,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2023 <br>
 ## Dataset download
 1. Download the datasets (BDD100K / SHIFT)
 
-2. Split BDD100K and SHIFT into day and night labels using dataset information. Convert BDD100K and SHIFT labels to coco format.
+2. Split BDD100K and SHIFT into day and night labels using dataset information. Convert BDD100K and SHIFT labels to coco format. Alternatively, you can download our split (https://www.dropbox.com/scl/fo/258uzp6i0dz17zsj234r6/h?dl=0&rlkey=kb6brfk1oqc1ddsa3ulz8v9ei).
 
 3. Organize the dataset with the following format
 
@@ -82,6 +82,11 @@ python train_net.py \
       --config configs/faster_rcnn_R50_bdd100k.yaml \
       MODEL.WEIGHTS <your weight>.pth
 ```
+## Pretrained Weights
+| **Dataset** | **Model Link**                                                 |
+|-------------|----------------------------------------------------------------|
+| BDD100K     | https://www.dropbox.com/s/812l6wdbonabp9k/model_final.pth?dl=0 |
+| SHIFT       | Coming soon...                                                 |
 
 # Citation
 
